@@ -1,0 +1,135 @@
+/* Styles for the search input */
+#Input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styles for the container displaying search results or favorite movies */
+.fav-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* Styles for individual movie items */
+.fav-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Styles for movie posters */
+.fav-poster img {
+  width: 100%;
+  height: auto;
+}
+
+/* Styles for movie details */
+.fav-details {
+  padding: 10px;
+}
+
+/* Styles for movie name */
+.fav-movie-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Styles for movie rating */
+.fav-movie-rating {
+  font-style: italic;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+/* Styles for the single movie container */
+.movie-container {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* Styles for movie details inside the single movie container */
+.movie-poster {
+  margin-bottom: 20px;
+}
+
+.movie-details {
+  font-size: 16px;
+}
+
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dh-ls h2 {
+  margin: 0;
+}
+
+.dh-rs {
+  font-size: 24px;
+}
+
+.italics-text {
+  font-style: italic;
+  color: #888;
+}
+
+.details-ul {
+  list-style: none;
+  padding: 0;
+}
+
+.details-ul li {
+  margin-bottom: 5px;
+}
+
+/* Add more CSS styles as needed */
+/* .my-class1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.my-class{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-class1 p{
+  margin-left: 20px;
+}
+.img1{
+  margin-left: 20px;
+  width: 200px;
+  height: 200px;
+}
+.img2{
+  margin-left: 20px;
+  width: 200px;
+  height: 200px;
+}
+.img3{
+  margin-left: 20px;
+  width: 200px;
+  height: 200px;
+}
+.img4{
+  margin-left: 20px;
+  width: 200px;
+  height: 200px;
+}
+.img5{
+  margin-left: 20px;
+  width: 200px;
+  height: 200px;
+}
